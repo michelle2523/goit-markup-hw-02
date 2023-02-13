@@ -1,0 +1,133 @@
+html {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-decoration: none;
+}
+.logo:hover {
+  color: #2196f3;
+}
+.logo::before {
+  content: "Web";
+  color: #2196f3;
+}
+.navigation-list li a {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.navigation-list li a:hover,
+.navigation-list li a:focus {
+  color: #2196f3;
+}
+.navigation-list > li {
+  list-style: none;
+}
+.contact-list li a {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.contact-list > li {
+  list-style: none;
+}
+.contact-list li a:hover {
+  color: #2196f3;
+}
+.button-list li button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.button-list > li {
+  list-style: none;
+}
+.button-list li button:hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo:hover {
+  color: #2196f3;
+}
+.footer-logo::before {
+  content: "Web";
+  color: #2196f3;
+}
+.adress {
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-section li {
+  list-style: none;
+}
+.footer-contact-list {
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.footer-contact-list:hover {
+  color: #2196f3;
+}
+.footer-section {
+  background-color: #757575;
+}
+.all {
+  list-style: none;
+}
+.all .image {
+  width: 370px;
+  height: 300px;
+}
+.all .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.all .category {
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
