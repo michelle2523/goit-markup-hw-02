@@ -57,6 +57,7 @@ html {
   color: #212121;
   background: #f5f4fa;
   border-radius: 4px;
+  border: none;
 }
 .button-list > li {
   list-style: none;
@@ -110,7 +111,7 @@ html {
   color: #2196f3;
 }
 .footer-section {
-  background-color: #757575;
+  background: #2f303a;
 }
 .all {
   list-style: none;
